@@ -13,10 +13,6 @@
             background-color: #f8fafc;
         }
         .hero {
-            /* Updated to link to the new background photo from your GitHub */
-            background-image: url('ScreenRecording_09-25-2025 13-45-33_1 copy.mp4');
-            background-size: cover;
-            background-position: center;
             position: relative;
         }
         .hero-overlay {
@@ -39,7 +35,6 @@
             <div class="flex items-center justify-between h-24">
                 <div class="flex-shrink-0">
                     <a href="#" class="block h-24 w-40">
-                        <!-- Updated to use a placeholder. Replace this with a direct image URL for your logo. -->
                         <img src="LOGO-Centered-9.25.jpg" alt="Mainstream Tinting Logo" class="h-full w-full object-cover">
                     </a>
                 </div>
@@ -55,10 +50,15 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="hero h-[70vh] md:h-[80vh] flex items-center justify-center text-center text-white p-4">
-        <div class="hero-overlay absolute inset-0"></div>
-        <div class="relative z-10 max-w-4xl">
+    <!-- Hero Section with Video Background -->
+    <header class="hero h-[70vh] md:h-[80vh] flex items-center justify-center text-center text-white p-4 overflow-hidden">
+        <!-- Video Element for Background -->
+        <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover z-0">
+            <source src="ScreenRecording_09-25-2025 13-45-33_1 copy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-overlay absolute inset-0 z-10"></div>
+        <div class="relative z-20 max-w-4xl">
             <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-4">
                 Professional Window Film & Tinting for Your Property
             </h1>
