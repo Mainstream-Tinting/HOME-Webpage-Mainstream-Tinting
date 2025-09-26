@@ -53,8 +53,10 @@
     <!-- Hero Section with Video Background -->
     <header class="hero h-[70vh] md:h-[80vh] flex items-center justify-center text-center text-white p-4 overflow-hidden">
         <!-- Video Element for Background -->
+        <!-- The autoplay, loop, and muted attributes are essential for the video to play automatically without user interaction. -->
         <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover z-0">
             <source src="ScreenRecording_09-25-2025 13-45-33_1 copy.mp4" type="video/mp4">
+            <!-- Fallback text for browsers that don't support the video tag -->
             Your browser does not support the video tag.
         </video>
         <div class="hero-overlay absolute inset-0 z-10"></div>
