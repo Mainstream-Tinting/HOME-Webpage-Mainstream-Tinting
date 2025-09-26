@@ -13,8 +13,8 @@
             background-color: #f8fafc;
         }
         .hero {
-            /* Updated with the direct image URL from your Imgur post */
-            background-image: url('https://imgur.com/Mwrq7WJ.jpg');
+            /* Updated to link to the new background photo from your GitHub */
+            background-image: url('Background Photo.jpg');
             background-size: cover;
             background-position: center;
             position: relative;
@@ -152,4 +152,58 @@
             <div class="max-w-3xl mx-auto space-y-6">
                 <!-- FAQ Item 1 -->
                 <div class="bg-white rounded-2xl shadow-lg p-6">
-                    <h3 class="text-xl font-semibold mb-2">What are the benefits of window tinting?
+                    <h3 class="text-xl font-semibold mb-2">What are the benefits of window tinting?</h3>
+                    <p class="text-gray-600">Window tinting provides numerous benefits, including UV protection, reduced energy costs, increased privacy, and enhanced security by holding shattered glass together in the event of an impact.</p>
+                </div>
+                <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-2xl shadow-lg p-6">
+                    <h3 class="text-xl font-semibold mb-2">How long does installation take?</h3>
+                    <p class="text-gray-600">Most residential and commercial installations can be completed in just a few hours, depending on the number of windows and the complexity of the project. We work efficiently to minimize disruption to your home or business.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16">
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 text-center mb-12">Get a Free Estimate</h2>
+            <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-lg p-8">
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                        <input type="text" id="name" name="name" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                        <input type="email" id="email" name="email" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Project Details</label>
+                        <textarea id="message" name="message" rows="4" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105">
+                            Submit Estimate Request
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                <div class="text-sm text-gray-400">
+                    &copy; 2025 Mainstream Tinting. All rights reserved.
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
